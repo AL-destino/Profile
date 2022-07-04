@@ -1,0 +1,325 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Grape Nuts', Times, serif;
+    text-decoration: none;
+    letter-spacing: 2px;
+  }
+
+html{
+    background-image: url("pic/sky.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+body{
+    /* font-family: 'Grape Nuts'; */
+  } 
+
+
+.navEng{
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    background-color: gold;
+    padding: 24px;
+    z-index: 4;
+    display: block;
+}
+
+.navSpan{
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+    background-color: gold;
+    padding: 23px;
+    z-index: 4;
+    display: none;
+}
+
+#navigation1{
+
+}
+
+.navigation1{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    width: auto;
+    align-items:center;
+    justify-content: space-between; 
+}
+
+.nav-list{
+    position: relative;
+    margin: 5px;
+    color:white;
+    display: flex;
+    min-width: 200%;
+}
+
+.nav-list > .category{
+    font-size: 25px;
+    min-width: 100px; 
+}
+
+.nav-list a{
+    text-decoration: none;
+}
+
+.category{
+    color: white;
+    margin: 0 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 0.4s;
+    padding: 8px 16px;
+    display: flex;
+}
+
+.infoEng{
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-style: solid;
+    border-width: 4px 4px 4px 4px;
+    border-color: #22398E;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.proPic{
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 5px 50px 0px rgb(108, 68, 252), 0px 0px 0px 7px rgba(107, 74, 255, 0.5);
+    display: block;
+}
+
+.proPic img{
+    max-width: 100%;
+    max-height: 150%;
+    transform: translateY(0%);
+}
+
+.writingEng{
+    margin-top: -35px;
+    text-align: center;
+    padding: 0 20px;
+    padding-bottom: 40px;
+    font-size: 27px;
+    text-shadow: #22398E;
+}
+
+#sectionA{
+
+}
+
+.Guess{
+    display: block;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    margin-left: 10em;
+    margin-right: 10em;
+    padding: 50px;
+    border-style:groove;
+    border-color: purple;
+    /* background-image: url(file:///Users/BigAL/Documents/Ebook/IS/Web/Source%20code/MyProfile2/pic/bball.jpg); */
+}
+
+.second{
+    font-size: 30px;
+}
+
+.Curry{
+    height: 500px;
+    width: 600px;
+    padding: 30px;
+    opacity: 0.9;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.quiz-container{
+    margin: 5px;
+}
+
+.button-inline{
+    text-align:center; 
+    margin: 10px 10px 10px 10px;
+    font-size:20px;
+  }
+  
+.btn{
+    font-size:18px;
+  }
+  
+#result{
+      text-align:center;
+      font-size:17px;
+  }
+
+#sectionB{
+
+}
+
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: minmax(30vw,160px);
+    grid-gap: 0.5em;
+    max-width: 1100px;
+    margin: 50px auto;
+  }
+  
+.image1{
+      width: 100%;
+      height: 100%;
+      object-fit: fill;
+  }
+  
+.image2{
+      width: 100%;
+      height: 100%;
+      object-fit: fill;
+  }
+  
+.image3{
+      width: 100%;
+      height: 100%;
+      object-fit: fill;
+  }
+  
+.image4{
+      width: 100%;
+      height: 100%;
+      object-fit: fill;
+  }
+  
+.image5{
+      width: 100%;
+      height: 100%;
+      object-fit: fill;
+  }
+  
+.image6{
+      width: 100%;
+      height: 100%;
+      object-fit: fill;
+  }
+
+.textArea{
+    position: relative;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+    margin: 70px;
+    padding: 2vh;
+    margin-top: 50px;
+    border-style: double;
+    border-color: purple;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/* .Container2{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    top: 36%;
+    left: 50%;
+    margin: -100px -125px;
+    
+} */
+
+.LinkToWork{
+    /* display: flex; */
+    /* border-style: dotted; */
+    min-width: 20vh;
+    min-height: 50vh;
+    max-width: 100vh;
+    align-items: center;
+    
+}
+.center{
+    margin: 2vh;
+    text-align: center;
+}
+
+.audio_intro{
+    text-align: center;
+}
+
+.Audio{
+    
+}
+
+.workText{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    font-size: 60px;
+    text-align: left;
+    display: inline-block;
+    line-height: normal;
+    vertical-align: middle;
+}
+
+footer{
+    background-color: var(--primary);
+    text-align: center;
+    background-color: #24252a;
+    margin: auto;
+    min-height: 150px;
+
+}
+
+footer .footerMarca{
+    /* font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Pacifico', cursive; */
+    font-size: 2rem;
+    color: white !important;
+}
+
+footer p{
+    margin-top: 1rem;
+    color: white;
+    opacity: 0.7;
+    font-size: 25px;
+    padding: 20px;
+}
+
+footer div i{
+    color: white;
+    font-size: 1.8rem;
+}
+
+footer small{
+    color: white;
+    opacity: 0.7;
+}
+
+footer .bi-instagram, footer .bi-facebook{
+    opacity: 0.7;
+    transition: all 0.3s;
+}
+
+footer .bi-instagram:hover{
+    color: #DD2A7B;
+    opacity: 1;
+}
+
+footer .bi-facebook:hover{
+    color: white;
+    opacity: 1;
+}

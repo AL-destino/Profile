@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="AL">
+    <link rel="stylesheet" type="text/css" href="MyProfile2.css">
+    <script language = "javascript" src="MyProfile2.js" type="text/javascript"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap');
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>Andy's Profile</title>
+</head>
+<body>
+
+    <section class="navEng" >
+         <nav class="navigation1">
+            <div class="nav-list">
+                    <span class="category"><a href="#sectionA"> About me </a></span>   
+                    <span class="category"><a href="#sectionB"> Photos </a></span>
+                    <span class="category"><a href="#sectionC">My Work</a></span>
+            </div> 
+        </nav>
+    </section>
+
+    <section class="navSpan">
+        <nav class="navigation1">
+           <div class="nav-list">
+                   <span class="category"><a href="#sectionA"> Sobre Mi</a></span>   
+                   <span class="category"><a href="#sectionB"> Fotos </a></span>
+                   <span class="category"><a href="#sectionC"> Mis obras </a></span>
+           </div> 
+       </nav>
+   </section>
+
+    <section id="sectionA">
+        <div class="infoEng">
+        <div class="proPic">
+            <img src="pic/ProPic.jpg" alt="profile pic">
+        </div>
+        <div class="writingEng">
+            <p><b>Finishing the undergraduate study in HKU, 
+                I would like to keep pace with the technological change
+                so learning coding will be an important milestone in my life.</br>
+                Check out the project below by clicking "My Work" </br> 
+                See what insights it can give you~</b>
+            </p>
+        </div>
+        </div>
+
+        <br/>
+
+        <div id="guessing" class="Guess">
+            
+            <p class="second"><b>Guess the basketabll player I like the most</b></p>
+            <div><img class="Curry" src="pic/GOAT.jpg"  alt="Stephen Curry"></div>
+            <div class="quiz-container">
+            <form>
+                <label class="button-inline">
+                    <input type="radio" name="answer" value="Michael Jordon" id="input1"><b>Michael Jordon</b>
+                </label>
+                <label class="button-inline">
+                    <input type="radio" name="answer" value="Lebron James" id="input2"><b>Lebron James</b>
+                </label>
+                <label class="button-inline">
+                    <input type="radio" name="answer" value="Kobe Bryant" id="input3"><b>Kobe Bryant</b>
+                </label>
+                <label class="button-inline">
+                    <input type="radio" name="answer" value="Stephen Curry" id="input4"><b>Stephen Curry</b>
+                </label>
+              </form>
+            </div>
+            <button class="btn" onclick="processClick()">Get Result</button>
+        
+
+        <div class="container">
+            <span id="result" style="text-align: center; display: block"></span>
+        </div>
+        </div>
+    </section>
+
+  
+    <section id="sectionB" class="pictures">
+    <div>
+        <div class="wrapper">
+            <div class="box box-1">
+            <img src= "pic/autumn2.jpg" class="image1" alt="autumn">
+            </div>
+
+            <div class="box box-2">
+            <img src= "pic/dinner.jpg" class="image2" alt="dinner">
+            </div>
+
+            <div class="box box-3">
+            <img src="pic/stair.jpg" class="image3" alt="stair">
+            </div>
+
+            <div class="box box-4">
+            <img src="pic/park.jpg" class="image4" alt="park">
+             </div>
+
+            <div class="box box-5">
+            <img src="pic/rock.jpg" class="image6" alt="The Peak">
+            </div>
+
+            <div class="box box-6">
+            <img src="pic/flower.jpg" class="image5" alt="flower">
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <section id="sectionC" class="myWork">
+        <div class="textArea">
+           
+           <div class="LinkToWork">
+              <div class="center">
+                <p style="font-size: 40px;"><b>Podcast with my schoolmates</b></p>
+              </div>
+
+              <div class="audio_intro">
+                  <p style="font-size: 30px;">
+                      Aiming to promoting social affairs community engagement,
+                      the host interviewed a few law students about media stereotypes on lawyers,
+                      and let them talk about legal principles that are helpful to our life   
+                  </p>
+              
+            </br>
+            </br>
+
+                    <p style="font-size: 25px;">Click the link Below</p>
+            </br>
+                    <p>
+                        <i class="fa fa-hand-o-right" style="font-size:25px"></i>
+                        <a href="/Users/BigAL/Documents/Ebook/IS/Web/Codes/Podcast1/podcast.html" target="blank" style="font-size: 25px;"><b>Podcast page</b></a>
+                    </p>
+
+            </div>
+
+           </div> 
+
+                <!-- <div class="Container2">
+                    <img src="file:///Users/BigAL/Documents/Ebook/IS/Web/Source%20code/MyProfile2/pic/lawbook.jpg" 
+                    style="margin-bottom: 5px; height: 250px; width: 248px;" alt="Law Books">
+                
+            <audio controls style="margin: 0 auto; display: block;">
+                <source src="Individual submission - Lau Wang Kin (updated).mp3"  type="audio/mpeg">
+            </audio>
+            </div> -->
+        
+            <!-- <p class="workText"><b>MORE TO BE RELEASED</b></p> -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="my-5">
+            <!-- <a class="footerMarca">Presented in 2022</a> -->
+            <p>Learn more about at:</p>
+            <div>
+                <a href="http://www.instagram.com/andylau_3al" target="_blank" class="me-3"><i class="bi bi-instagram"></i></a>
+                <a href="#!" class="mx-3"><i class="bi bi-facebook"></i></a>
+            </div>
+        </div>
+        
+    </footer>
+
+</body>
+</html>
